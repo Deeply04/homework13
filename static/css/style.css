@@ -1039,11 +1039,15 @@ html{
         margin-left: 0;
         margin-top: 0;
     }
+    .unilab-box-left{
+        text-align: center;
+    }
     .unilab-box-left p:first-child{
         font-size: 12px;
     }
     .unilab-box-left p:last-child{
         font-size: 10px;
+        width: 100px;
     }
     .unilab-box-p{
         margin-bottom: 0;
@@ -1075,7 +1079,7 @@ html{
     }
     .unilab-intership-box{
         width: 351px;
-        height: 90px;
+        height: 110px;
         font-size: 8px;
     }
     .modal{
@@ -1134,7 +1138,13 @@ html{
         width: 120px;
         height: 30px;
     }
-
+    .burger{
+        display: flex;
+    }
+    .seemore{
+        margin-right: 0;
+        margin-top: 15px;
+    }
 }
 
 
